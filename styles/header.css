@@ -1,0 +1,83 @@
+body{
+  position: relative;
+}
+
+#headerComplet{
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: #FFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  font-family: 'Inter', sans-serif;
+}
+
+#logo{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+
+#logo > a > img {
+  width: 50%;
+}
+
+#symbolMenu{
+  padding: 18px;
+  font-size: 36px;
+}
+
+#menu{
+  display: none;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(to bottom, 
+  rgb(0, 91, 107),       /* topo */
+  rgb(0, 110, 125),      /* meio */
+  rgb(0, 91, 107)        /* base */
+);
+}
+
+#symbolClose{
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  margin-top: 18px;
+  margin-right: 18px;
+
+  color: #FFF;
+  border-radius: 8px;
+}
+
+#itensMenu{
+  display: flex;
+  flex-direction: column;
+  
+  padding-top: 124px;
+
+  gap: 8px;
+}
+
+#itensMenu > li{
+  padding-bottom: 24px;
+  padding-left: 32px;
+
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+#itensMenu > li > a{
+  text-decoration: none;
+  color: #FFF;
+}
+

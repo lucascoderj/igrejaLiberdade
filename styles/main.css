@@ -1,0 +1,184 @@
+#conteudo_principal{
+    margin-top: 126px;
+
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* <-- BOAS VINDAS --> */
+#boasvindas_conteudo_principal > h1 {
+    text-align: center;
+
+    font-size: 2.5rem;
+    font-weight: 700;
+
+    line-height: 1.1;
+
+    color: #1a365d;
+}
+
+#boasvindasSpan{
+    background: linear-gradient(135deg, var(--secondary-color), rgb(1, 123, 145));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#paragrafoBoasVindas{
+    width: 90%;
+
+    margin: auto;
+    margin-top: 24px;
+    
+}
+
+#paragrafoBoasVindas > p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+
+    color: #1a365d;
+
+    text-align: center;
+}
+
+
+#imagemFachadaBoasVindas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#imagemFachadaBoasVindas > img {
+    width: 80%;
+    
+    border-radius: 20px;
+
+    margin-top: 24px;
+}
+
+#buttonsBoasVindas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 32px;
+
+    gap: 24px;
+}
+
+#buttonsBoasVindas > a {
+
+    border: 1px solid black;
+    border-radius: 8px;
+
+    width: 50%;
+
+    padding: 16px;
+
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    text-align: left;
+
+    color: #FFF;
+}
+
+#buttonApresentarIgreja{
+
+    background: linear-gradient(to right, 
+    rgb(0, 91, 107),       /* topo */
+    rgb(1, 140, 165)        /* base */
+    );  
+
+    border: none !important;
+
+}
+
+#buttonEventos{
+    border: 2px solid rgb(0, 91, 107) !important;
+    color: rgb(0, 91, 107) !important;
+}
+
+
+
+/* <-- NOSSA IGREJA --> */
+
+#sobreNossaIgreja{
+    background-color: #f7fafc;
+    color: #1a365d;
+}
+
+#tituloSobreNossaIgreja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    line-height: 1.6;
+
+    margin-top: 46px;
+    gap: 7px;
+}
+
+#tituloSobreNossaIgreja > h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    margin-top: 32px;
+}
+
+#sublinhadoTituloSobreNossaIgreja{
+    width: 25%;
+
+    border-bottom: 5px solid  rgb(1, 140, 165);    /* topo */
+    border-radius: 5px;
+}
+
+#tituloSobreNossaIgreja > p{
+    width: 90%;
+
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#conteinerTituloNossaMissao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 36px;
+}
+
+#tituloNossaMissao{
+    width: 85%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+    gap: 12px;
+}
+
+#tituloNossaMissao > h2{
+    font-size: 1.75rem;
+    font-weight: 600;
+
+    line-height: 1.2;
+}
+
+#tituloNossaMissao > p {
+    font-size: 1rem;
+    font-weight: 100;
+
+    line-height: 1.6;
+}
+
