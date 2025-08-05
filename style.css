@@ -4,11 +4,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap);/*roboto*/
 
 /*RESET CSS*/
-@import url(./styles/reset.css);
+@import url(styles/reset.css);
 
 /*CORPO HTML*/
-@import url(./styles/header.css); 
-@import url(./styles/main.css);
+@import url(styles/header.css); 
+@import url(styles/main.css);
 
 
 
