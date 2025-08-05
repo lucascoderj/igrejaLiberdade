@@ -29,7 +29,6 @@
 
     margin: auto;
     margin-top: 24px;
-    
 }
 
 #paragrafoBoasVindas > p{
@@ -47,14 +46,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 #imagemFachadaBoasVindas > img {
-    width: 80%;
-    
-    border-radius: 20px;
+    width: 100%;
 
     margin-top: 24px;
 }
@@ -97,7 +92,6 @@
     );  
 
     border: none !important;
-
 }
 
 #buttonEventos{
@@ -128,7 +122,7 @@
 }
 
 #tituloSobreNossaIgreja > h2{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 600;
 
     margin-top: 32px;
@@ -166,10 +160,11 @@
     text-align: left;
 
     gap: 12px;
+
 }
 
 #tituloNossaMissao > h2{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 600;
 
     line-height: 1.2;
@@ -180,5 +175,129 @@
     font-weight: 100;
 
     line-height: 1.6;
+}
+
+#imagemSobreNossaIgreja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagemSobreNossaIgreja > img{
+    width: 80%;
+    
+    border-radius: 16px;
+
+    margin-top: 24px;
+}
+
+
+
+/* <-- NOSSOS MINISTERIOS <-- */
+
+#nossosMinisterios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFF;
+
+    margin-top: 56px;
+}
+
+#tituloNossosMinisterios{
+    width: 85%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+    gap: 12px;
+
+}
+
+#tituloNossosMinisterios > h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    line-height: 1.2;
+}
+
+#tituloNossosMinisterios > p {
+    font-size: 1rem;
+    font-weight: 100;
+
+    line-height: 1.6;
+}
+
+#boxPrincipalMinisterios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 36px;
+
+    margin-top: 36px;
+}
+
+
+.boxMinisterios{
+    width: 85%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+
+    gap: 8px;
+
+    background: linear-gradient(to bottom, 
+    rgb(0, 91, 107),       /* topo */
+    rgb(0, 110, 125)     /* meio */
+    );
+
+    color: #FFF;
+
+    border-radius: 16px;
+    
+    text-align: center;
+
+    padding: 10px;
+}
+
+
+.boxMinisterios > h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    line-height: 1.2;
+
+    color: #ed8936;;
+}
+
+.boxMinisterios > p{
+    font-size: 1rem;
+    font-weight: 100;
+
+    line-height: 1.6;
+}
+
+.boxMinisterios > a{
+    padding-bottom: 8px;
+
+    text-decoration: none;
+    color: #bb6e30;;;
+
+    cursor: pointer;
+}
+
+.boxMinisterios > a:hover{
+    color: rgb(189, 93, 14) ;
+
+    text-decoration: underline;
 }
 
