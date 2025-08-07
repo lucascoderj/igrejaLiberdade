@@ -119,6 +119,7 @@
 
     margin-top: 46px;
     gap: 7px;
+
 }
 
 #tituloSobreNossaIgreja > h2{
@@ -128,7 +129,7 @@
     margin-top: 32px;
 }
 
-#sublinhadoTituloSobreNossaIgreja{
+.sublinhadoTitulo{
     width: 25%;
 
     border-bottom: 5px solid  rgb(1, 140, 165);    /* topo */
@@ -216,7 +217,6 @@
     text-align: left;
 
     gap: 12px;
-
 }
 
 #tituloNossosMinisterios > h2{
@@ -239,7 +239,7 @@
     justify-content: center;
     align-items: center;
 
-    gap: 36px;
+    gap: 56px;
 
     margin-top: 36px;
 }
@@ -267,6 +267,8 @@
     text-align: center;
 
     padding: 10px;
+
+    box-shadow: 8px 8px 20px rgb(134, 134, 134);
 }
 
 
@@ -293,6 +295,9 @@
     color: #bb6e30;;;
 
     cursor: pointer;
+
+    padding-top: 12px;
+    font-weight: 600;
 }
 
 .boxMinisterios > a:hover{
@@ -300,4 +305,107 @@
 
     text-decoration: underline;
 }
+
+
+
+/* <-- EVENTOS E CULTOS <-- */
+
+
+#eventosECultos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 56px;
+    padding-top: 46px;
+
+    background-color: #f7fafc;
+    color: #1a365d;
+}
+
+#tituloEventosECultos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    line-height: 1.6;
+
+    gap: 7px;
+}
+
+#tituloEventosECultos > h2 {
+    width: 100vw;
+
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+#tituloEventosECultos > p {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#conteinerProgramacao{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 56px;
+
+    background-color: #FFF;
+
+    border-radius: 16px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#tituloProgramacaoSemanal{
+    width: 50%;
+
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+
+    margin: 36px 0px 36px 0px;
+}
+
+#boxPrincipalProgramacaoSemanal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.boxProgramacao{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+    gap: 4px;
+    margin-top: 32px;
+    padding-bottom: 16px;
+
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.boxProgramacao > h3, h4{
+    font-size: 0.938rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.boxProgramacao > p {
+    font-size: 0.816rem;
+    line-height: 1.6;
+}
+
+
 
