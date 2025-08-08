@@ -292,7 +292,7 @@
     padding-bottom: 8px;
 
     text-decoration: none;
-    color: #bb6e30;;;
+    color: #FFF;
 
     cursor: pointer;
 
@@ -390,7 +390,7 @@
     flex-direction: column;
     
     gap: 4px;
-    margin-top: 32px;
+    margin-top: 18px;
     padding-bottom: 16px;
 
     border-bottom: 1px solid rgb(216, 216, 216);
@@ -407,5 +407,24 @@
     line-height: 1.6;
 }
 
+.borderNone{
+    border: none;
+}
+
+
+/*<-- LOCALIZAÇÃO -->*/
+
+#conteinerLocalizacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 56px;
+
+    background-color: #1a365d;
+
+
+
+}
 
 
