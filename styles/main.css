@@ -292,6 +292,7 @@
     padding-bottom: 8px;
 
     text-decoration: none;
+    text-transform: uppercase;
     color: #FFF;
 
     cursor: pointer;
@@ -356,6 +357,7 @@
     align-items: center;
 
     margin-top: 56px;
+    margin-bottom: 56px;
 
     background-color: #FFF;
 
@@ -418,13 +420,107 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     margin-top: 56px;
-
-    background-color: #1a365d;
-
-
-
 }
 
 
+#tituloLocalizacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    line-height: 1.6;
+
+    gap: 7px;
+}
+
+#tituloLocalizacao > h2{
+    width: 100vw;
+
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+
+#tituloLocalizacao > p {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#boxPrincipalLocalizacao{
+    width: 80vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 32px;
+
+    margin-top: 56px;
+
+}
+
+.boxLocalizacao{
+
+    display: flex;
+    flex-direction: row;
+    
+    gap: 12px;
+}
+
+.boxInfoLocalizacao{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 4px;
+
+    line-height: 1.6;
+}
+
+
+.boxInfoLocalizacao > h2{
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.boxInfoLocalizacao > p{
+    font-size: 0.986rem;
+    font-weight: 100;
+
+}
+
+.fas{
+    color: #ed8936;
+    font-size: 1.5rem;
+    padding-top: 5px;
+}
+
+#comoChegar{
+    margin-top: 24px;
+}
+
+#comoChegar > a {
+    padding: 16px;
+
+    border-radius: 12px;
+    background-color: #1a365d;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #FFF;
+    font-weight: 500;
+    font-size: 0.816rem;
+    line-height: 1.6;
+    
+}
+
+#comoChegar > a > i {
+    color: #FFF;
+    font-size: 1rem;
+    margin-right: 8px;
+}
