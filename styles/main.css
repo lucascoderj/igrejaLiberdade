@@ -461,7 +461,6 @@
     gap: 32px;
 
     margin-top: 56px;
-
 }
 
 .boxLocalizacao{
@@ -523,4 +522,7 @@
     color: #FFF;
     font-size: 1rem;
     margin-right: 8px;
+
+    padding-bottom: 56px;
 }
+
